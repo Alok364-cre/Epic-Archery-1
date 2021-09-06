@@ -17,7 +17,7 @@ function setup() {
   world = engine.world;
 	
    //Create Player Base and Computer Base Object
-   computerbase=new ComputerBase(1400,random(450,height-300),180,150);
+   computerbase=new ComputerBase(1300,random(450,height-300),180,150);
    complayer=new Computer(width-285,computerbase.body.position.y-153,50,180); 
    playerbase=new PlayerBase(300,random(450,height-300),180,150);
    player=new Player(283,playerbase.body.position.y-153,50,180);
